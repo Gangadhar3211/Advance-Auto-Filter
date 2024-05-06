@@ -43,8 +43,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://telugugangadhar3211:OruQnlrb2MexAQG5@cluster0.wc28ckj.mongodb.net/")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vjbotsaban")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbots')
+DATABASE_NAME = environ.get('DATABASE_NAME', "movies")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mivies')
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
